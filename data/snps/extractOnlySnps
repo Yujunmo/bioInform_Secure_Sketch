@@ -1,0 +1,14 @@
+#!/bin/bash
+
+path=$(pwd)
+x=3
+y=0
+name=p
+while [ $x -lt 6 ]
+do
+	tmp=$path
+	cut -f $x  $tmp/usethis > $name$y
+	let x=$x+1
+	let y=$y+1
+done
+
