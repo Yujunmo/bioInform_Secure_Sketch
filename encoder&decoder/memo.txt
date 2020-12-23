@@ -1,0 +1,6 @@
+1) make
+2) g++ -o SGS_producer SGS_producer.cxx
+
+
+
+1) g++ -o decoder decoder.cxx
